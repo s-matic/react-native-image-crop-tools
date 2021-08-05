@@ -6,9 +6,10 @@ import {
   StyleProp,
   UIManager,
   ViewStyle,
+  NativeModules,
 } from 'react-native';
 
-const RCTCropView = requireNativeComponent('CropView');
+const RCTCropView = requireNativeComponent('RCTCropView');
 
 type Response = {
   uri: string;

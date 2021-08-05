@@ -1,7 +1,7 @@
 {
   "name": "react-native-image-crop-tools-expo",
   "title": "React Native Image Crop Tools for Expo",
-  "version": "1.3.6",
+  "version": "1.3.10",
   "description": "Native image crop tools with embeddable UI and on the fly aspect ratio switchin",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -35,6 +35,9 @@
     "email": "hhunaid@gmail.com"
   },
   "license": "MIT",
+  "files": [
+    "react-native-image-crop-tools.podspec"
+  ],
   "readmeFilename": "README.md",
   "peerDependencies": {
     "react": "^16.8.1",
