@@ -1,13 +1,13 @@
 {
-  "name": "react-native-image-crop-tools",
-  "title": "React Native Image Crop Tools",
+  "name": "react-native-image-crop-tools-expo",
+  "title": "React Native Image Crop Tools for Expo",
   "version": "1.3.6",
   "description": "Native image crop tools with embeddable UI and on the fly aspect ratio switchin",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json --fix",
+    "lint": "",
     "prepublishOnly": "npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
@@ -17,8 +17,8 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hhunaid/react-native-image-crop-tools.git",
-    "baseUrl": "https://github.com/hhunaid/react-native-image-crop-tools"
+    "url": "git+https://github.com/s-matic/react-native-image-crop-tools.git",
+    "baseUrl": "https://github.com/s-matic/react-native-image-crop-tools"
   },
   "keywords": [
     "react-native",
